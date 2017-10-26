@@ -20,6 +20,6 @@ public class BrandController {
 
     @RequestMapping("/showBrand")
     public String showBrand() {
-        return "Success!";
+        return brandService.getBrandById(100010L).toString();
     }
 }
