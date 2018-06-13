@@ -162,4 +162,26 @@ public class Brand {
     public void setTenantId(Integer tenantId) {
         this.tenantId = tenantId;
     }
+
+    @Override
+    public String toString() {
+        return "Brand{" +
+                "brandId=" + brandId +
+                ", brandNo='" + brandNo + '\'' +
+                ", brandName='" + brandName + '\'' +
+                ", shortName='" + shortName + '\'' +
+                ", enName='" + enName + '\'' +
+                ", enShortName='" + enShortName + '\'' +
+                ", shortcutKey='" + shortcutKey + '\'' +
+                ", barCode='" + barCode + '\'' +
+                ", isEnabled=" + isEnabled +
+                ", categoryNo='" + categoryNo + '\'' +
+                ", creator=" + creator +
+                ", createTime=" + createTime +
+                ", lastUpdater=" + lastUpdater +
+                ", lastUpdateTime=" + lastUpdateTime +
+                ", isUsable=" + isUsable +
+                ", tenantId=" + tenantId +
+                '}';
+    }
 }
